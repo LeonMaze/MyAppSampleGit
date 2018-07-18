@@ -212,6 +212,8 @@ Type:
 
         git commit -m 'Added README.md'
 
+        git push
+
 
 
 
