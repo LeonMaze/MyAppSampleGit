@@ -54,7 +54,7 @@ Save file and initialize the folder as git repository:
         git init
 
 Add yuor user name and email:
- (--global means that this username and email will be used evrywere on this system. If you want to use different names or emails to folder symply do not type --global)
+ (--global means that this username and email will be used evrywere on this system. If you want to use different names or emails to folder symply do not type --global). Format: Your Name <you@example.com> or for example:
 
         git config --global user.name 'John Joseph'
         git config user.email 'email@example.com'
