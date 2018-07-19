@@ -1,22 +1,28 @@
 #MyApp Git Tutorial
 
 To install git go to:
-    Windows            https://git-scm.com/download/win
-    Linux/Unix/MacOS   https://git-scm.com/download/
+
+Windows            https://git-scm.com/download/win
+
+Linux/Unix/MacOS   https://git-scm.com/download/
 
 
 Install it with default parameters and Launch Git Bash in Wizard
 
 
+
 (in the following symbol # after typed commands means answer under command line)
 
 
-Type 
-    git --version
-    #git version 2.11.1.windows.1
+Type: 
+        git --version
+
+        #git version 2.11.1.windows.1
 
 Create folder in your Desktop 
-    Type
+
+    Type:
+
         mkdir myApp
 
 Go to this folder or open GitBash by clicing Mouse Right Click -> open GitBash here
@@ -42,6 +48,7 @@ Open your Code Editor and change index.html:
         </html>
 
 Save file and initialize the folder as git repository:
+
     Type:
 
         git init
