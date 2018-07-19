@@ -4,9 +4,12 @@ To install git go to:
     Windows            https://git-scm.com/download/win
     Linux/Unix/MacOS   https://git-scm.com/download/
 
+
 Install it with default parameters and Launch Git Bash in Wizard
 
+
 (in the following symbol # after typed commands means answer under command line)
+
 
 Type 
     git --version
@@ -19,10 +22,12 @@ Create folder in your Desktop
 Go to this folder or open GitBash by clicing Mouse Right Click -> open GitBash here
 
 Create a couple files:
+
     touch index.html
     touch app.js
 
 Open your Code Editor and change index.html:
+
     <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -38,25 +43,30 @@ Open your Code Editor and change index.html:
 
 Save file and initialize the folder as git repository:
     Type:
+
         git init
 
 Add yuor user name and email:
  (--global means that this username and email will be used evrywere on this system. If you want to use different names or emails to folder symply do not type --global)
+
         git config --global user.name 'John Joseph'
         git config user.email 'email@example.com'
 
 Lets add index.html after changing file in the previous step:
     Type:
+
         git add index.html
 
 Find out its status
     Type:
+
         git status
 
 Only app.js in red that means it is untracked and index.html is added and changes is commited
 
 If you want to remove files from tracked
     Type:
+
         git reset
 
         or
@@ -85,7 +95,7 @@ And index.html in red tell us that changes we now have at staging for commit
 
 Record changes to the repository (-m means message of changes)
 
-        git-commit -m 'Initial Changes'     
+        git commit -m 'Initial Changes'     
         
 Change app.js file 
     add to it   colsole.log("Hello Wir") and save
